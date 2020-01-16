@@ -18,7 +18,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello_world():
-    return "Hello Python World!\r\n", 200, { 'Content-Type': 'text/plain' }
+    return "Hello Kemlu ini test POC Redhat openshift dan Jenkin pipeline !\r\n", 200, { 'Content-Type': 'text/plain' }
 
 if __name__ == '__main__':
     application.run(debug = True)
